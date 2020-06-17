@@ -59,6 +59,7 @@ nav{
 
 .rasm-head{
 	font-size: 100px;
+	text-shadow: 5px 5px 5px red;
 }
 .rasmlar-box{
 	display: flex;

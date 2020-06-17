@@ -1,0 +1,75 @@
+body{
+	background-color: #adbb;
+}
+nav{
+	width: 1110px;
+	margin: 0 auto;
+}
+.sherlar{
+	padding: 20px;
+	background-image: url(../img/sher-bgyangi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.sher-head{
+	margin: 100px 0;
+	font-size: 100px;
+  font-family:Monotype Corsiva; 
+  font-weight: bold;
+  text-shadow: 5px 5px 5px green;
+}
+.sher-head:hover{
+	color: red;
+	text-shadow: 5px 5px 5px black;
+}
+.hikmatli-gaplar-box{
+	background-color: #add;
+	padding: 20px;
+}
+.hikmatli-gaplar{
+	font-size: 80px;
+  font-family:Monotype Corsiva; 
+  font-weight: bold;
+  text-shadow: 5px 5px 5px red;
+}
+
+
+.hikoya{
+	padding: 25px;
+	background-image: url(../img/hikoya.PNG);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.hikoya-matni{
+	font-size: 20px;
+}
+.hikoya-nomi a{
+	display: inline-block;
+	margin-bottom: 20px;
+	background-color: #caa;
+	font-weight: bold;
+	color: orangered;
+	padding: 10px 60px;
+}
+
+
+.rasm-head{
+	font-size: 100px;
+}
+.rasmlar-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.rasmlar-box img{
+	width: 300px;
+	margin-bottom: 55px;
+	transition: transform 01s ease;
+}
+.rasmlar-box img:hover{
+	transform: scale(1.2);
+}
